@@ -1,0 +1,27 @@
+:root {
+  --width-full: 100%;
+  --height-screen: 100vh;
+
+  --font-regular: 400;
+  --font-heading: 'Bebas Neue', sans-serif;
+  --font-body: system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Open Sans',
+    'Helvetica Neue',
+    sans-serif;
+
+  --color-gray: #434343;
+  --color-pink-500: #FECDD3;
+  --color-pink-600: #FCA5A5;
+  --color-pink-700: #F87171;
+  --color-yellow-500: #FDBA74;
+  --color-blue-400: #56369d;
+  --color-red-500: #d36060;
+  --color-blue-500: #3D2B6A;
+}

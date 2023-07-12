@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quer falar comigo? - Wallace Oliveira</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Monomaniac+One&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./assets/styles/styles.css" />
+  <link rel="stylesheet" href="./assets/styles/contact.css" />
+</head>
+
+<body>
+  <main class="main">
+    <article class="article">
+      <h2 class="title">Fale Comigo</h2>
+
+      <form class="form">
+        <div class="field">
+          <label class="field-label">Seu nome:</label>
+          <input class="field-input" type="text" placeholder="seu nome" required min="2" />
+          <small class="field-error">Você esqueceu de digitar seu nome.</small>
+        </div>
+
+        <div class="field">
+          <label class="field-label">Seu E-mail:</label>
+          <input class="field-input" type="email" placeholder="seu@email.com" required />
+          <small class="field-error">Seu e-mail parece inválido.</small>
+        </div>
+
+        <div class="field">
+          <label class="field-label">Seu Whatsapp (ou telegram):</label>
+          <input class="field-input" type="tel" />
+        </div>
+
+        <div class="field">
+          <label class="field-label">Deixe sua mensagem:</label>
+          <textarea class="field-input textarea" placeholder="Olá" required></textarea>
+        </div>
+
+        <button class="form-button">Enviar Mensagem</button>
+      </form>
+    </article>
+
+    <nav class="navigation">
+      <a class="navigation-link" href="/index.html">Início</a>
+      <a class="navigation-link" href="/sobre.html">Sobre</a>
+      <a class="navigation-link" href="/educacao.html">Educação</a>
+      <a class="navigation-link" href="/portfolio.html">Portfólio</a>
+      <a class="navigation-link active" href="/contato.html">Contato</a>
+    </nav>
+  </main>
+</body>
+
+</html>

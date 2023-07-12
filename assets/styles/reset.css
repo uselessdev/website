@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: var(--width-full);
+  min-height: var(--height-screen);
+  font-weight: 400;
+  font-family: var(--font-body);
+  color: var(--color-gray);
+}
+
+body {
+  background-color: var(--color-pink-500);
+}
+
+img {
+  width: 100%;
+  display: inline-block;
+  object-fit: cover;
+  object-position: center;
+}
